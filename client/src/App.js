@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Signup from './pages/Signup';
+import Login from './pages/Login';
 import NewsFeed from './components/NewsFeed';
 import Messenger from './components/Messenger';
 import MyProfile from './components/MyProfile';
@@ -19,6 +20,7 @@ class App extends Component {
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path="/Register" component={Signup}/>
+             <Route path="/Login" component={Login}/>
              <Route path="/NewsFeed" component={NewsFeed}/>
              <Route path="/Messenger" component={Messenger}/>
              <Route path="/MyProfile" component={MyProfile}/>
