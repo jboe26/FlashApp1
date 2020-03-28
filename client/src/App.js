@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
+import Signup from './pages/Signup';
 import NewsFeed from './components/NewsFeed';
 import Messenger from './components/Messenger';
 import MyProfile from './components/MyProfile';
@@ -17,6 +18,7 @@ class App extends Component {
         <Navbar />
             <Switch>
              <Route path="/" component={Home} exact/>
+             <Route path="/Register" component={Signup}/>
              <Route path="/NewsFeed" component={NewsFeed}/>
              <Route path="/Messenger" component={Messenger}/>
              <Route path="/MyProfile" component={MyProfile}/>

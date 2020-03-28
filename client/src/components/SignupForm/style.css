@@ -1,0 +1,13 @@
+
+
+.fieldWrapper {
+    padding: 40px;
+}
+
+.field {
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    text-align: center;
+}
