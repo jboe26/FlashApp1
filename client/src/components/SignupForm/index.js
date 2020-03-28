@@ -34,7 +34,7 @@ render() {
                         <input className="field"
                         name="userName"
                         type="text" 
-                        placeholder="EX: Kylester3422"
+                        placeholder="Enter a Username"
                         value={this.state.name}
                         onChange={this.handleInputChange}
                         />
@@ -45,7 +45,7 @@ render() {
                         <input className="field"
                         name="email"
                         type="text"
-                        placeholder="KyleLovesCake@gmail.com"
+                        placeholder="Enter your e-mail"
                         value={this.state.email}
                         onChange={this.handleInputChange}
                         />
@@ -56,7 +56,7 @@ render() {
                         <input className="field"
                         name="password"
                         type="password"
-                        placeholder="EX: !LOv3CakE"
+                        placeholder="Enter a password"
                         value={this.state.password}
                         onChange={this.handleInputChange}
                         />

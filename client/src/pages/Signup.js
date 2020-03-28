@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SignupForm from "../components/SignupForm";
 import Navbar from "../components/Navbar";
-import NavbarLink from "../components/NavbarLink";
+// import NavbarLink from "../components/NavbarLink";
 import Wrapper from "../components/Wrapper";
 import API from "../utils/API";
 
