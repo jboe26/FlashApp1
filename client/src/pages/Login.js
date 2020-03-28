@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 // import NavbarLink from "../components/NavbarLink";
 import LoginForm from "../components/LoginForm"
 import Wrapper from "../components/Wrapper";
@@ -27,7 +27,7 @@ if (userName && password) { //if all 2 areas are filled out, run this
           returnedName: res.data.dbModel[0].userName,
           returnedEmail: res.data.dbModel[0].email
         });
-        this.props.history.push("/browse")
+        
       })
       .catch(err => console.log(err));
     }
@@ -58,8 +58,6 @@ render() {
 return (
 
 <Wrapper>
-<Navbar>
-  </Navbar>
         {this.state.returnedName}
         <LoginForm
     handleSubmit={this.handleSubmit}

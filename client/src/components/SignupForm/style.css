@@ -1,5 +1,15 @@
 
-
+.Signup {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-width: 2px;
+    width: fit-content;
+    text-align: center;
+    background-color: lightblue;
+    height: auto;
+    }
 .fieldWrapper {
     padding: 40px;
 }
