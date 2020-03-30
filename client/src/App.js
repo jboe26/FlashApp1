@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import NewsFeed from './components/NewsFeed';
-import Messenger from './components/Messenger';
+import MostTrending from './components/MostTrending';
+import Videos from './components/Videos';
 import MyProfile from './components/MyProfile';
 import Error from './components/Error';
 import Navbar from "./components/Navbar";
@@ -21,8 +21,8 @@ class App extends Component {
              <Route path="/" component={Home} exact/>
              <Route path="/Register" component={Signup}/>
              <Route path="/Login" component={Login}/>
-             <Route path="/NewsFeed" component={NewsFeed}/>
-             <Route path="/Messenger" component={Messenger}/>
+             <Route path="/MostTrending" component={MostTrending}/>
+             <Route path="/Videos" component={Videos}/>
              <Route path="/MyProfile" component={MyProfile}/>
             <Route component={Error}/>
            </Switch>

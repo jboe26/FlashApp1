@@ -20,23 +20,23 @@ class Navbar extends Component {
               Home <br /> <br />
             </Link>
             <Link
-              to="/NewsFeed"
+              to="/MostTrending"
               style={{
                 fontFamily: "ariel"
               }}
               className="col s5 brand-logo center black-text"
             >
-              <i className="material-icons">menu</i>
-              News Feed <br /> <br />
+              <i className="material-icons">trending_up</i>
+              Most Trending <br /> <br />
             </Link>
             <Link
-            to="/Messenger"
+            to="/Videos"
             style={{
               fontFamily: "ariel",
             }}
             className="col s5 brand-logo left black-text">
-              <i className="material-icons">chat</i>
-              Messenger <br /> <br />
+              <i className="material-icons">videocam</i>
+              Videos <br /> <br />
             </Link>
             <Link
             to="/MyProfile"
