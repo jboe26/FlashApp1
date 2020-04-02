@@ -8,8 +8,8 @@ const app = express();
 const TWO_HOURS = 1000 * 60 * 60 * 2;
 const SESSION_LENGTH = TWO_HOURS;
 const PORT = process.env.PORT || 3001;
-const NODE_ENV = "development"
-const bodyParser = require('body-parser');
+// const NODE_ENV = "development"
+// const bodyParser = require('body-parser');
 //const pino = require('express-pino-logger');
 
 // Define middleware here
