@@ -21,7 +21,6 @@ class App extends Component {
       
       <HashRouter>
         <div>
-  
           <ul className="header">
            <NavLink to="/"><i className="material-icons">home</i> Home  </NavLink>
            <NavLink to="/MostTrending"><i className="material-icons">trending_up</i> Most Trending  </NavLink>
@@ -36,7 +35,6 @@ class App extends Component {
               <Route path="/MostTrending" component={MostTrending}/>
               <Route path="/Videos" component={Videos}/>
               <Route path="/MyProfile" component={MyProfile}/>
-    
           </div>
         </div>
         </HashRouter>
