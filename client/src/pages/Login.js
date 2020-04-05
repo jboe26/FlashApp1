@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import LoginForm from "../components/LoginForm"
 import Wrapper from "../components/Wrapper";
 import API from "../utils/API";
+import './login.css';
 
 class Login extends Component { //main is a test page to test user creation (Working)
     
@@ -44,6 +45,7 @@ checkForUser = () => {
  // if (res.data.userName) 
 //{this.props.history.push("/browse")}
 })
+
 .catch(err => console.log(err));
 }
 
@@ -58,7 +60,7 @@ render() {
 return (
 
 <Wrapper>
-        {this.state.returnedName}
+        
         <LoginForm
     handleSubmit={this.handleSubmit}
     >

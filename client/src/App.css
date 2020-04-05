@@ -34,6 +34,16 @@ h1,h2 {
   text-align: center;
 }
 
+body {
+  background-color: #92AF86;
+}
+
+.header {
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bolder;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -42,3 +52,4 @@ h1,h2 {
     transform: rotate(360deg);
   }
 }
+

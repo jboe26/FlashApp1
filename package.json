@@ -1,8 +1,8 @@
 {
-  "name": "FlashApp1",
+  "name": "flashApp1",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "npm run start:prod",
     "start:prod": "node server.js",
@@ -34,6 +34,9 @@
     "multer-s3": "^2.9.0",
     "path": "^0.12.7",
     "per-env": "^1.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-facebook-login": "^4.1.1",
     "url": "^0.11.0"
   },
   "homepage": "https://github.com/jboe26/FlashApp1#readme",
