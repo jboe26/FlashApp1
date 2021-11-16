@@ -23,7 +23,7 @@
     "url": "https://github.com/jboe26/FlashApp1/issues"
   },
   "dependencies": {
-    "aws-sdk": "^2.610.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.19.1",
     "connect-mongo": "^3.2.0",
     "dotenv": "^8.2.0",
